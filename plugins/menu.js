@@ -21,7 +21,7 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎',
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `مرحبا اتمنى إن ينال البوت اعجابكم لطفا اشتركو بالقناة قبل استخدامه https://whatsapp.com/channel/0029VaFpLsm2ZjCtcStqqd0h. 
 
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
