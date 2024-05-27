@@ -37,7 +37,7 @@ const handler = async (m, { conn, args, usedPrefix }) => {
     try {
         const text = args.length >= 1 ? args.join(" ") : m.quoted && m.quoted.text || '';
         if (!text.trim()) {
-            await m.reply(`تخيل و انا سأرسل لك ما تخيلته انا بوبيزة استطيع فعلها نعم ! \nمـــثال:\n*.artdraw* girl with hijan  style`);
+            await m.reply(`تخيل و انا سأرسل لك ما تخيلته انا طيف استطيع فعلها نعم ! \nمـــثال:\n*.artdraw* girl with hijan  style`);
             return;
         }
 
@@ -54,7 +54,7 @@ const handler = async (m, { conn, args, usedPrefix }) => {
         delete processedImg.info.url;
         const caption = Object.entries(processedImg.info).map(([key, value]) => `  ○ *${key.toUpperCase()}:* ${value}`).join('\n');
 
-        await conn.sendMessage(m.chat, { image: { url: media }, caption: `instagram.com/noureddine_ouafy` }, { quoted: m });
+        await conn.sendMessage(m.chat, { image: { url: media }, caption: `ﻃـﻳـ𖤍ــفِ| 𝑮𝑯𖤐𝑺𝑻` }, { quoted: m });
     } catch (error) {
         console.error(error);
         await m.reply('حدث خطأ أثناء معالجة طلبك. الرجاء معاودة المحاولة في وقت لاحق.');
